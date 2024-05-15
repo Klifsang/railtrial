@@ -1,5 +1,5 @@
 from flask import Flask
-from models.myname import myname
+from server.models.myname import myname
 
 app = Flask(__name__)
 
